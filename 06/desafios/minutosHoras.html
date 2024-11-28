@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
+    <h1>Converter minutos por horas</h1>
+
+    <label for="numero1">minutos</label>
+    <input type="number" id="hebert" placeholder="coloque os minutos aqui">
+    <br>
+    <button onclick="exibirHoras()">converter</button>
+
+    <p id="resultado"></p>
+
     <script>
         /*
         Solução 1: Mostra a divisão correta das horas, porém
@@ -31,15 +42,19 @@
         console.log("Total de horas: " + horas + ":" + minutosRestantes);
         */
 
-        let minutos = prompt("Informe o total de minutos");
-        let horas = 0;
-
-        while(minutos > 60) {
-            minutos -= 60
-            horas++
+        // let minutos = prompt("Informe o total de minutos");
+        function exibirHoras() {
+            let minutos = document.getElementById("hebert").value
+            let horas = 0;
+            while (minutos > 60) {
+                minutos -= 60
+                horas++
+            }
+            document.getElementById("resultado").innerText = ("Total de horas: " + horas + ":" + minutos);
         }
 
-        console.log("Total de horas: " + horas + ":" + minutos);
+        
     </script>
 </body>
+
 </html>
