@@ -33,19 +33,11 @@
     color: #222;
 }
 
-#resultado {
-    height: 30px;
-    width: 200px;
-    margin: 5px;
-    border-radius: 5px;
-    font-size: 25px;
-    padding: 5px;
+#display {
+    width: calc(100% - 5px);
+    height: 50px;
+    font-size: 20px;
     text-align: right;
-    background-color: white
+    margin-bottom: 15px;
 }
-
-#equals {
-    grid-column: span 4;
-}
-
 
