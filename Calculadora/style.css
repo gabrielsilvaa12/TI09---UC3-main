@@ -24,7 +24,27 @@
     font-size: 25px;
     margin: 3px ;    border-radius: 5px;
     cursor: pointer;
-    background-color: #222;
+    background-color: #333;
+    color: aliceblue;
+}
+
+.botao2 {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 3px ;    border-radius: 5px;
+    cursor: pointer;
+    background-color: #c20000;
+    color: aliceblue;
+}
+
+.botao3 {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 3px ;    border-radius: 5px;
+    cursor: pointer;
+    background-color: #075fc9;
     color: aliceblue;
 }
 
@@ -41,3 +61,6 @@
     margin-bottom: 15px;
 }
 
+#palavra {
+    margin-bottom: 15px;
+}
