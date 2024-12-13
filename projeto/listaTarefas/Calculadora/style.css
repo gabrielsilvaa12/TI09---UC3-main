@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0, 0 ,0 ,.3);
+    text-align: center;
+    color: #222;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%); */
+    margin: 30px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 3px ;    border-radius: 5px;
+    cursor: pointer;
+    background-color: #333;
+    color: aliceblue;
+}
+
+.botao2 {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 3px ;    border-radius: 5px;
+    cursor: pointer;
+    background-color: #c20000;
+    color: aliceblue;
+}
+
+.botao3 {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 3px ;    border-radius: 5px;
+    cursor: pointer;
+    background-color: #075fc9;
+    color: aliceblue;
+}
+
+.botao:hover {
+    background-color: aliceblue;
+    color: #222;
+}
+
+#display {
+    width: calc(100% - 5px);
+    height: 50px;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+#palavra {
+    margin-bottom: 15px;
+}

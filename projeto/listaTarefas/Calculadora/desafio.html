@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <h1 id="palavra">calculadora</h1>
+                    <input type="text" id="display"readonly>
+        <table>
+            <tr>
+                <td><button class="botao" data-value="7">7</button></td>
+                <td><button class="botao" data-value="8">8</button></td>
+                <td><button class="botao" data-value="9">9</button></td>
+                <td><button class="botao" style="background-color: darkgreen;"data-value="/">÷</button></td>
+            </tr>
+            <tr>
+                <td><button class="botao" data-value="4">4</button></td>
+                <td><button class="botao" data-value="5">5</button></td>
+                <td><button class="botao" data-value="6">6</button></td>
+                <td><button class="botao" style="background-color: darkgreen;" data-value="*">x</button></td>
+            </tr>
+            <tr>
+                <td><button class="botao" data-value="1">1</button></td>
+                <td><button class="botao" data-value="2">2</button></td>
+                <td><button class="botao" data-value="3">3</button></td>
+                <td><button class="botao" style="background-color: darkgreen;" data-value="-">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="botao" data-value="0">0</button></td>
+                <td><button class="botao" data-value=".">.</button></td>
+                <td><button id="clear" class="botao2">C</button></td>
+                <td><button class="botao" style="background-color: darkgreen;" data-value="+">+</button></td>
+            </tr>
+            <tr>
+                <td><button id="equals" style="background-color: rgb(12, 71, 189); width: 50px;
+                    height: 50px;
+                    font-size: 25px;
+                    margin: 3px ;    border-radius: 5px;">=</button></td>
+
+            </tr>
+        </table>
+    </div>
+    <script src="desafio.js"></script>
+</body>
+</html>
